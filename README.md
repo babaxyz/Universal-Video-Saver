@@ -19,3 +19,6 @@ If a permitted media endpoint is added later, keep the frontend separate from th
 
 ## Google Drive content
 Google Drive can be used for non-user-facing content/configuration, but public browser fetching should be tested for access permissions and CORS before relying on it as a production content source.
+
+## Version 2
+URL validation, supported-domain detection, source preview, and direct-media URL handling have been added. Platform-protected media extraction is intentionally not included.
