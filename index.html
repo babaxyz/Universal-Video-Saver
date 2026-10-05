@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Universal Video Saver - save authorized public media files from direct URLs.">
+<title>Universal Video Saver</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html">Universal<span>Video Saver</span></a>
+  <nav>
+    <a href="supported.html">Supported</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="hero">
+  <div class="badge">⚡ Fast · Simple · No Login</div>
+  <h1>Save public media<br><span>from a direct URL.</span></h1>
+  <p class="lead">Paste a direct media-file URL and save it to your device. No account and no permanent storage.</p>
+
+  <section class="card">
+    <label for="url">Media URL</label>
+    <div class="input-row">
+      <input id="url" type="url" placeholder="https://example.com/video.mp4" autocomplete="off">
+      <button id="checkBtn">Check URL</button>
+    </div>
+    <p class="hint">Supported direct files: MP4, WebM, MOV, M4V, OGV, MP3, M4A, WAV, OGG.</p>
+    <div id="status" class="status"></div>
+    <div id="result" class="result hidden"></div>
+  </section>
+
+  <section class="features">
+    <article><b>🔒 Privacy first</b><p>No login and no user database.</p></article>
+    <article><b>🚀 Lightweight</b><p>Simple client-side interface.</p></article>
+    <article><b>📱 Mobile friendly</b><p>Works across phones and desktops.</p></article>
+  </section>
+
+  <div class="notice">
+    <b>Important:</b> Use only media you own, have permission to download, or that the publisher explicitly makes available for download.
+  </div>
+</main>
+<footer>© 2026 Universal Video Saver · Built for authorized public media</footer>
+<script src="app.js"></script>
+</body>
+</html>
