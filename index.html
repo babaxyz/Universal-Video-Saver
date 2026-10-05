@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Universal Video Saver helps you identify supported public media URLs and provides a simple, privacy-friendly saving workflow.">
+  <title>Universal Video Saver — Paste. Preview. Save.</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><span>UV</span> Universal Video Saver</a>
+    <nav>
+      <a href="#how">How it works</a>
+      <a href="supported-sites.html">Supported</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">FAST • SIMPLE • PRIVACY FRIENDLY</div>
+      <h1>Paste. Preview.<br><strong>Save.</strong></h1>
+      <p class="lead">A clean tool for working with publicly downloadable media URLs. No account required.</p>
+
+      <div class="card analyzer">
+        <label for="url">Media URL</label>
+        <div class="input-row">
+          <input id="url" type="url" placeholder="Paste a public media URL…" autocomplete="off">
+          <button id="analyzeBtn">Analyze</button>
+        </div>
+        <p class="hint">Only use content you own or have permission to save.</p>
+        <div id="result" class="result hidden"></div>
+      </div>
+    </div>
+
+    <div class="hero-art">
+      <div class="phone">
+        <div class="phone-top"></div>
+        <div class="preview-box">▶</div>
+        <div class="skeleton"></div>
+        <div class="skeleton short"></div>
+        <div class="download-demo">↓ Save media</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="how" class="section">
+  <div class="container">
+    <div class="section-heading">
+      <span>01</span>
+      <h2>How it works</h2>
+    </div>
+    <div class="steps">
+      <article><b>1</b><h3>Paste</h3><p>Copy a URL for publicly downloadable media and paste it above.</p></article>
+      <article><b>2</b><h3>Analyze</h3><p>The browser identifies the source domain and checks whether it is currently supported by this interface.</p></article>
+      <article><b>3</b><h3>Save</h3><p>Use the permitted download or save option provided by the source or an authorized media endpoint.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="container feature-grid">
+    <div><span class="icon">⚡</span><h3>Simple</h3><p>No unnecessary screens or account creation.</p></div>
+    <div><span class="icon">🔒</span><h3>Privacy-minded</h3><p>The starter UI does not collect or store submitted URLs on a server.</p></div>
+    <div><span class="icon">📱</span><h3>Mobile-first</h3><p>Designed around the way most users access media tools.</p></div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© 2026 Universal Video Saver</span>
+    <div><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a><a href="contact.html">Contact</a></div>
+  </div>
+</footer>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
